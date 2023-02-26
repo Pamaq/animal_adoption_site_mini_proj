@@ -2,12 +2,14 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
 }
 h1 {
-	justify-content: center;
-	align-items: center;
+	text-align: center;
+	margin: auto;
 	padding: 40px;
-	width: 100vw;
+	width: 50vw;
 }
 
 body {
@@ -21,14 +23,13 @@ section {
 	display: flex;
 	flex-direction: column;
 	margin: auto;
-	justify-content: space-between;
 	align-items: center;
 }
 .card {
-	/* display: block; */
-	margin-top: 20px;
-	height: 25%;
-	width: 25%;
+	/* display: inline-block; */
+	margin: 20px;
+	/* height: 25%; */
+	width: 30vw;
 	border-radius: 3%;
 	background-color: rgb(187, 187, 225);
 	margin: auto;
@@ -37,14 +38,17 @@ section {
 }
 p {
 	margin: 10px;
+	text-align: center;
 	/* justify-content:center; */
 	/* align-items:center; */
 }
 
-button {
+.btn {
+	font-size: 0.5em;
 	height: auto;
 	min-width: 10%;
-	margin: auto;
+	margin-top: auto;
+	margin-bottom: 25px;
 	font-size: 2rem;
 	padding: 5px;
 	border-radius: 5%;
@@ -55,7 +59,7 @@ button {
 	transform: scale(1.05);
 }
 .btn:active {
-	background-color: gray;
+	background-color: rgb(194, 189, 189);
 }
 .dogs {
 	display: flex;
